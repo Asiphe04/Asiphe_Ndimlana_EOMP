@@ -4,8 +4,30 @@
     box-sizing: border-box;
 }
 header img{width: 35px !important;}
+.navbar{margin-left: 100px;}
+#navbarnav a{font-size:large!important;
+}
+#landing-section img{margin-top: 50px;}
 
-#navbarnav a{font-size:x-large!important;}
+.banner-headline {
+    height: 40px !important; 
+  }
+  
+  .banner-words-wrapper {
+    display: inline-block !important;
+  }
+  
+  .banner-words-wrapper span {
+    display: inline-block !important;
+  }
+
+#Facebook:hover{color:rgb(2, 8, 120) !important;}
+#Twitter:hover{color: skyblue !important;}
+#Instagram:hover{color: purple !important;}
+#Github:hover{color: green !important;}
+#Youtube:hover{color: red !important;}
+
+
 
 
 .footer-container a{color: white !important;
@@ -16,3 +38,5 @@ header img{width: 35px !important;}
         margin: 5px !important ;
         padding: 5px !important;
         font-size: x-large !important;}
+        
+
