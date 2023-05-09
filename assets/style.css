@@ -8,6 +8,10 @@ header img{width: 35px !important;}
 .navbar{margin-left: 100px;}
 #navbarnav a{font-size:large!important;
 }
+.navbar.blurred {
+  filter: blur(5px);
+  
+}
 #landing-section img{margin-top: 50px;}
 
 .banner-headline {
@@ -61,6 +65,9 @@ header img{width: 35px !important;}
         display: flex !important;	
       }
       #card-body{width: max-content;}
-      /* #Back-end-developer{margin-top: 1px !important;} */
+      .project{width: 30% !important;}
+      /* Projects */
+   
+      .car{width: 225px;}
         
 
