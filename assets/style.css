@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 header img{width: 35px !important;}
+
 .navbar{margin-left: 100px;}
 #navbarnav a{font-size:large!important;
 }
@@ -26,6 +27,7 @@ header img{width: 35px !important;}
 #Instagram:hover{color: purple !important;}
 #Github:hover{color: green !important;}
 #Youtube:hover{color: red !important;}
+#LinkedIn:hover{color: blue !important; }
 
 
 
@@ -38,5 +40,27 @@ header img{width: 35px !important;}
         margin: 5px !important ;
         padding: 5px !important;
         font-size: x-large !important;}
+
+
+
+        /* About */
+        p{margin: 0px 0px 24px !important;
+        font: 20px  !important;
+        font-family: sans-serif;
+      }  
+      .profile-pic {
+        width: 150px !important;
+        height: 150px !important;
+        object-fit: cover !important;
+        border-radius: 50% !important;
+      }
+      
+      #card {
+        border-radius: 10px !important ;    
+        align-items: center;
+        display: flex !important;	
+      }
+      #card-body{width: max-content;}
+      /* #Back-end-developer{margin-top: 1px !important;} */
         
 
