@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body{margin: 0;
+padding: 0;}
 *,*::before,*::after {
     margin: 0;
     padding: 0;
@@ -17,7 +20,7 @@ header img{width: 35px !important;}
 #landing-section img{margin-top: 50px;}
 
 .banner-headline {
-    height: 40px !important; 
+    height: 27px !important; 
   }
   
   .banner-words-wrapper {
@@ -50,6 +53,13 @@ header img{width: 35px !important;}
 
 
         /* About */
+       .direction-l{right: -100px;
+      position: fixed;
+    padding-right: 100px;} 
+      
+        #About-section{width: 100%;}
+        .carousel-control-prev{justify-content: flex-start !important;
+        width: 0;}
         p{margin: 0px 0px 24px !important;
         font: 20px  !important;
         font-family: sans-serif;
@@ -337,7 +347,7 @@ header img{width: 35px !important;}
       
       }
       
-      @media screen and (min-width: 400px  max-width: 660px) {
+      @media screen and ( max-width: 660px) {
       
       .direction-l .desc,
       .direction-r .desc {
@@ -378,7 +388,7 @@ background: red;
       .percent svg circle{
         width: 100%;
         height: 100%;
-        
+        fill: transparent;
         stroke-width: 2;
         stroke: gray;
         transform: translate(5px,5px);
@@ -386,7 +396,7 @@ background: red;
       .percent svg circle:nth-child(2){
         stroke: var(--clr);
         stroke-dasharray: 440;
-        stroke-dashoffset: calc(440- (440 * var(--num) ) /100 );
+        stroke-dashoffset: calc(440- (440 * var(--num)) /100 );
         opacity: 0;
         animation: fadeIn 1s linear forwards;
         animation-delay: 2.5s;
@@ -455,13 +465,15 @@ background: red;
         color: white;
         font-size: 0.5em;
       }
+    
      
 
 
 
       /* Projects */
    
-      .car{width: 225px;
+      .car{width: 299px !important;
+        height: 168px !important;
       }
       /* Testimonial */
       .testimonial-pic{width: 225px;
