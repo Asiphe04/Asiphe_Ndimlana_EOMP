@@ -1,4 +1,10 @@
+// Navbar Menu
+window.addEventListener("scroll", function () {
+  var navbar = document.querySelector(".navbar");
+  navbar.classList.toggle("blurred", window.scrollY > 0);
+});
 // Education
+
 let education = [
   {
     id: 1,
